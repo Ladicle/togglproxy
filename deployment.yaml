@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: toggl2gcal
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: toggl2gcal
+    spec:
+      containers:
+        - name: toggl2gcal
+          image: toggl-proxy-server
+          env:
+            - name: TOGGL_TOKEN
+              value: "dummy"
+          ports:
+            - containerPort: 8080

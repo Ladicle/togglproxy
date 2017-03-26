@@ -1,0 +1,3 @@
+export TOGGL_TOKEN=toggl_dummy_token
+export GOOGLE_CLIENT_ID=dummy_google_client_id
+export GOOGLE_CLIENT_SECRET=dummy_google_client_secret

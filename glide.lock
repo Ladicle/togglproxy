@@ -1,0 +1,48 @@
+hash: 94ef0e7081542bfa3d2c0b3f5a9cda1f096327aaa1101214d80df8e5b34f82bb
+updated: 2017-03-26T22:13:37.846270706+09:00
+imports:
+- name: cloud.google.com/go
+  version: 2e6a95edb1071d750f6d7db777bf66cd2997af6c
+  subpackages:
+  - compute/metadata
+- name: github.com/gedex/go-toggl
+  version: 7f9a7285485be92a4fdbc723339acc9a402582b8
+  subpackages:
+  - toggl
+- name: github.com/golang/glog
+  version: 44145f04b68cf362d9c4df2182967c2275eaefed
+- name: github.com/golang/protobuf
+  version: df1d3ca07d2d07bba352d5b73c4313b4e2a6203e
+  subpackages:
+  - proto
+- name: github.com/vzvu3k6k/go-toggl
+  version: 7e8cb1e54ac57499ffd3f50ede7e6578c33b10bf
+  subpackages:
+  - toggl
+- name: golang.org/x/net
+  version: e90d6d0afc4c315a0d87a568ae68577cc15149a0
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/oauth2
+  version: 3c3a985cb79f52a3190fbc056984415ca6763d01
+  subpackages:
+  - internal
+- name: google.golang.org/api
+  version: a69f0f19d246419bb931b0ac8f4f8d3f3e6d4feb
+  subpackages:
+  - calendar/v3
+  - gensupport
+  - googleapi
+  - googleapi/internal/uritemplates
+- name: google.golang.org/appengine
+  version: 4f7eeb5305a4ba1966344836ba4af9996b7b4e05
+  subpackages:
+  - internal
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+testImports: []

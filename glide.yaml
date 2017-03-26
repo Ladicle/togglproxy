@@ -1,2 +1,13 @@
 package: github.com/Ladicle/gcalendar-proxy
-import: []
+import:
+- package: google.golang.org/api
+  subpackages:
+  - calendar/v3
+- package: golang.org/x/oauth2
+- package: cloud.google.com/go
+  version: ^0.6.0
+  subpackages:
+  - compute/metadata
+- package: github.com/vzvu3k6k/go-toggl
+  version: 7e8cb1e54ac57499ffd3f50ede7e6578c33b10bf
+- package: github.com/golang/glog

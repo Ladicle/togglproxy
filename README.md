@@ -1,5 +1,3 @@
-# toggl2gcal
-
-Sync [Toggl][0] data to Google Calendar.
+# toggl Proxy
 
 [0]: https://toggl.com 
